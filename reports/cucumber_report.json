@@ -1,0 +1,1210 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "automation-test-for-carts;verify-subscription-in-cart-page",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify Subscription in Cart page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 5853477700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 4,
+            "name": "Verify that home page is visible successfully",
+            "match": {
+              "location": "src\\tests\\steps\\homesteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61328600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Click on Cart button",
+            "match": {
+              "location": "src\\tests\\steps\\cartsteps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3620999200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Scroll down to footer",
+            "match": {
+              "location": "src\\tests\\steps\\cartsteps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8696599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Verify text SUBSCRIPTION",
+            "match": {
+              "location": "src\\tests\\steps\\cartsteps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18621600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Enter email address in input and click arrow button",
+            "match": {
+              "location": "src\\tests\\steps\\cartsteps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 83507800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Verify success message You have been successfully subscribed! is visible",
+            "match": {
+              "location": "src\\tests\\steps\\cartsteps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25338999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 80316999
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "automation-test-for-carts;add-product-in-cart",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Add product in cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 5097065000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Verify that home page is visible successfully",
+            "match": {
+              "location": "src\\tests\\steps\\homesteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52834800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "Click on Products button",
+            "match": {
+              "location": "src\\tests\\steps\\productsteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1005112000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "Hover over first product and click Add to cart",
+            "match": {
+              "location": "src\\tests\\steps\\productsteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1129508200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "Click Continue shopping button",
+            "match": {
+              "location": "src\\tests\\steps\\productsteps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1011805899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "Hover over second product and click Add to cart",
+            "match": {
+              "location": "src\\tests\\steps\\productsteps.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 999507200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "Click view cart button",
+            "match": {
+              "location": "src\\tests\\steps\\productsteps.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 419550799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "Verify both products are added to cart",
+            "match": {
+              "location": "src\\tests\\steps\\cartsteps.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 56043799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "Verify their prices, quantity and total price",
+            "match": {
+              "location": "src\\tests\\steps\\cartsteps.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 195327800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 38578699
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "automation-test-for-carts",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Automation test for carts",
+    "tags": [],
+    "uri": "src\\tests\\features\\carts.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "automation-test-for-home;verify-scroll-up-using-arrow-button-and-scroll-down-functionality",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify Scroll Up using Arrow button and Scroll Down functionality",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 5094520300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 4,
+            "name": "Verify that home page is visible successfully",
+            "match": {
+              "location": "src\\tests\\steps\\homesteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31876000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Scroll down page to bottom",
+            "match": {
+              "location": "src\\tests\\steps\\homesteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3467599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "Verify SUBSCRIPTION is visible",
+            "match": {
+              "location": "src\\tests\\steps\\homesteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19895799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Click on arrow button",
+            "match": {
+              "location": "src\\tests\\steps\\homesteps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 88831799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Verify that page is scrolled up and 'Full-Fledged practice website for Automation Engineers' is visible",
+            "match": {
+              "location": "src\\tests\\steps\\homesteps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6519599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 56566900
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "automation-test-for-home;download-invoice-after-purchase-order",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Download Invoice after purchase order",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3529114499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Verify that home page is visible successfully",
+            "match": {
+              "location": "src\\tests\\steps\\homesteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33873499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Hover over first product and click Add to cart",
+            "match": {
+              "location": "src\\tests\\steps\\productsteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1007723299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Click on Cart button",
+            "match": {
+              "location": "src\\tests\\steps\\cartsteps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3748165099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "Click Proceed To Checkout",
+            "match": {
+              "location": "src\\tests\\steps\\cartsteps.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 57468800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "Click on Register Login button",
+            "match": {
+              "location": "src\\tests\\steps\\cartsteps.js:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 418276599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "Verify \"New User Signup!\" is visible",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 57152000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "Enter name and email address",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42292400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "Click Signup button",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 443267800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "Verify that ENTER ACCOUNT INFORMATION is visible",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 124425299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "Fill details: Title, Name, Email, Password, Date of birth",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 129387999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "Select checkbox Sign up for our newsletter!",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 139103199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "Select checkbox Receive special offers from our partners!",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 69952599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "Fill details: First name, Last name, Company, Address, Address2, Country, State, City, Zipcode, Mobile Number",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 443075700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "Click Create Account button",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 908509400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "Verify that ACCOUNT CREATED! is visible",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:85"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43895400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "Click Continue button",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:102"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 438952099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "Verify that Logged in as username is visible",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:89"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 205222399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "Click on Cart button",
+            "match": {
+              "location": "src\\tests\\steps\\cartsteps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2850290099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "Click Proceed To Checkout",
+            "match": {
+              "location": "src\\tests\\steps\\cartsteps.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 519341500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "Verify details and review your order",
+            "match": {
+              "location": "src\\tests\\steps\\cartsteps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24417399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "Enter description in comment text area and click Place Order",
+            "match": {
+              "location": "src\\tests\\steps\\cartsteps.js:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1305788499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 32,
+            "name": "Enter payment details: Name on Card, Card Number, CVC, Expiration date",
+            "match": {
+              "location": "src\\tests\\steps\\homesteps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 87537200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "Click Pay and Confirm Order button",
+            "match": {
+              "location": "src\\tests\\steps\\homesteps.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1911392400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "Verify success message 'Your order has been placed successfully!'",
+            "match": {
+              "location": "src\\tests\\steps\\homesteps.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3022722999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "Click Download Invoice button and verify invoice is downloaded successfully",
+            "match": {
+              "location": "src\\tests\\steps\\homesteps.js:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 638031499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "Click Continue button",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:102"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 738936000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 37,
+            "name": "Click Delete Account button",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 730844899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "Verify that \"ACCOUNT DELETED!\" is visible and click Continue button",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 498706700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 91464499
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "automation-test-for-home",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Automation test for home",
+    "tags": [],
+    "uri": "src\\tests\\features\\home.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "automation-test-for-login;register-a-new-user",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Register a new user",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 6352683599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 4,
+            "name": "Verify that home page is visible successfully",
+            "match": {
+              "location": "src\\tests\\steps\\homesteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30422800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Click on Signup Login button",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1005914499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "Verify \"New User Signup!\" is visible",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49501299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Enter name and email address",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18866500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Click Signup button",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 468190999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Verify that ENTER ACCOUNT INFORMATION is visible",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48804400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Fill details: Title, Name, Email, Password, Date of birth",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60667999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "Select checkbox Sign up for our newsletter!",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62097599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Select checkbox Receive special offers from our partners!",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 56273099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Fill details: First name, Last name, Company, Address, Address2, Country, State, City, Zipcode, Mobile Number",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 165989900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "Click Create Account button",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 879205799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "Verify that ACCOUNT CREATED! is visible",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:85"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26620399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "Click Continue button",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:102"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 416634900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "Verify that Logged in as username is visible",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:89"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 73102700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "Click Delete Account button",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1739754999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "Verify that \"ACCOUNT DELETED!\" is visible and click Continue button",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 458415699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 58822899
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "automation-test-for-login;successful-user-login-and-account-deletion",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Successful User Login and Account Deletion",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 7259746799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "Verify that home page is visible successfully",
+            "match": {
+              "location": "src\\tests\\steps\\homesteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30492599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "Click on Signup Login button",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 982623800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "Verify the \"Login to your account\" section is visible",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65444699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "Enter a valid email address and password",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27993799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "Click the Login button",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 783733900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "Verify that Logged in as username is visible on the right side of the page",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:93"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54682300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 37777700
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "automation-test-for-login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Automation test for login",
+    "tags": [],
+    "uri": "src\\tests\\features\\login.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "automation-test-for-products;search-product",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Search Product",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 7874966300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 4,
+            "name": "Verify that home page is visible successfully",
+            "match": {
+              "location": "src\\tests\\steps\\homesteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29159800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Click on Products button",
+            "match": {
+              "location": "src\\tests\\steps\\productsteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3078135999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "Verify user is navigated to ALL PRODUCTS page successfully",
+            "match": {
+              "location": "src\\tests\\steps\\productsteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 93975800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Enter product name in search input and click search button",
+            "match": {
+              "location": "src\\tests\\steps\\productsteps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2254231999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Verify SEARCHED PRODUCTS is visible",
+            "match": {
+              "location": "src\\tests\\steps\\productsteps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34012000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Verify all the products related to search are visible",
+            "match": {
+              "location": "src\\tests\\steps\\productsteps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6934600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 23503599
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "automation-test-for-products",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Automation test for products",
+    "tags": [],
+    "uri": "src\\tests\\features\\products.feature"
+  }
+]

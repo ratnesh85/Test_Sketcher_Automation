@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<testsuite failures="0" skipped="0" name="cucumber-js" time="83.928017252" tests="7">
+  <testcase classname="Automation test for carts" name="Verify Subscription in Cart page" time="9.752287497000001">
+    <system-out><![CDATA[Then Verify that home page is visible successfully........................passed
+When Click on Cart button.................................................passed
+And Scroll down to footer.................................................passed
+And Verify text SUBSCRIPTION..............................................passed
+And Enter email address in input and click arrow button...................passed
+Then Verify success message You have been successfully subscribed! is v...passed]]></system-out>
+  </testcase>
+  <testcase classname="Automation test for carts" name="Add product in cart" time="10.005334196">
+    <system-out><![CDATA[Then Verify that home page is visible successfully........................passed
+When Click on Products button.............................................passed
+And Hover over first product and click Add to cart........................passed
+And Click Continue shopping button........................................passed
+And Hover over second product and click Add to cart.......................passed
+And Click view cart button................................................passed
+Then Verify both products are added to cart...............................passed
+Then Verify their prices, quantity and total price........................passed]]></system-out>
+  </testcase>
+  <testcase classname="Automation test for home" name="Verify Scroll Up using Arrow button and Scroll Down functionality" time="5.3016779960000004">
+    <system-out><![CDATA[Then Verify that home page is visible successfully........................passed
+When Scroll down page to bottom...........................................passed
+Then Verify SUBSCRIPTION is visible.......................................passed
+And Click on arrow button.................................................passed
+Then Verify that page is scrolled up and 'Full-Fledged practice website...passed]]></system-out>
+  </testcase>
+  <testcase classname="Automation test for home" name="Download Invoice after purchase order" time="24.259331782">
+    <system-out><![CDATA[Then Verify that home page is visible successfully........................passed
+When Hover over first product and click Add to cart.......................passed
+And Click on Cart button..................................................passed
+And Click Proceed To Checkout.............................................passed
+And Click on Register Login button........................................passed
+Then Verify "New User Signup!" is visible.................................passed
+When Enter name and email address.........................................passed
+And Click Signup button...................................................passed
+Then Verify that ENTER ACCOUNT INFORMATION is visible.....................passed
+When Fill details: Title, Name, Email, Password, Date of birth............passed
+And Select checkbox Sign up for our newsletter!...........................passed
+And Select checkbox Receive special offers from our partners!.............passed
+And Fill details: First name, Last name, Company, Address, Address2, Co...passed
+And Click Create Account button...........................................passed
+Then Verify that ACCOUNT CREATED! is visible..............................passed
+When Click Continue button................................................passed
+Then Verify that Logged in as username is visible.........................passed
+When Click on Cart button.................................................passed
+And Click Proceed To Checkout.............................................passed
+Then Verify details and review your order.................................passed
+When Enter description in comment text area and click Place Order.........passed
+When Enter payment details: Name on Card, Card Number, CVC, Expiration ...passed
+And Click Pay and Confirm Order button....................................passed
+Then Verify success message 'Your order has been placed successfully!'....passed
+And Click Download Invoice button and verify invoice is downloaded succ...passed
+When Click Continue button................................................passed
+When Click Delete Account button..........................................passed
+Then Verify that "ACCOUNT DELETED!" is visible and click Continue butto...passed]]></system-out>
+  </testcase>
+  <testcase classname="Automation test for login" name="Register a new user" time="11.971970087999999">
+    <system-out><![CDATA[Then Verify that home page is visible successfully........................passed
+When Click on Signup Login button.........................................passed
+Then Verify "New User Signup!" is visible.................................passed
+When Enter name and email address.........................................passed
+And Click Signup button...................................................passed
+Then Verify that ENTER ACCOUNT INFORMATION is visible.....................passed
+When Fill details: Title, Name, Email, Password, Date of birth............passed
+And Select checkbox Sign up for our newsletter!...........................passed
+And Select checkbox Receive special offers from our partners!.............passed
+And Fill details: First name, Last name, Company, Address, Address2, Co...passed
+And Click Create Account button...........................................passed
+Then Verify that ACCOUNT CREATED! is visible..............................passed
+When Click Continue button................................................passed
+Then Verify that Logged in as username is visible.........................passed
+When Click Delete Account button..........................................passed
+Then Verify that "ACCOUNT DELETED!" is visible and click Continue butto...passed]]></system-out>
+  </testcase>
+  <testcase classname="Automation test for login" name="Successful User Login and Account Deletion" time="9.242495596">
+    <system-out><![CDATA[Then Verify that home page is visible successfully........................passed
+When Click on Signup Login button.........................................passed
+Then Verify the "Login to your account" section is visible................passed
+When Enter a valid email address and password.............................passed
+And Click the Login button................................................passed
+Then Verify that Logged in as username is visible on the right side of ...passed]]></system-out>
+  </testcase>
+  <testcase classname="Automation test for products" name="Search Product" time="13.394920097">
+    <system-out><![CDATA[Then Verify that home page is visible successfully........................passed
+When Click on Products button.............................................passed
+Then Verify user is navigated to ALL PRODUCTS page successfully...........passed
+When Enter product name in search input and click search button...........passed
+Then Verify SEARCHED PRODUCTS is visible..................................passed
+And Verify all the products related to search are visible.................passed]]></system-out>
+  </testcase>
+</testsuite>
